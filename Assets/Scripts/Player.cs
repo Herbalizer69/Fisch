@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     private float _jumpSpeed = 3.5f;
     [SerializeField]
     private float _doubleJumpMultiplier = 0.5f;
-
+    
     private CharacterController _controller;
 
     private float _directionY;
